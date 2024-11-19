@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- import font Bai Jamjuree -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./output.css" />
+
+    <link
+      rel="icon"
+      href="../images/office-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+    <title>Clippy</title>
+  </head>
+  <body>
+    <section id="hero">
+      <div class="section-container mb-40">
+        <svg
+          class="icon mx-auto my-16 w-64 h-64"
+          viewBox="0 0 1024 1024"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="#000000"
+          data-sr-no-text="true"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M506.9 782.1H129.2c-10.8 0-19.5-8-19.5-17.8V259.8c0-9.8 8.8-17.8 19.5-17.8h378.4l-0.7 540.1z"
+              fill="#26c0ab"
+              data-sr-no-text="true"
+            ></path>
+            <path
+              d="M501.8 787.5H129.2c-13.7 0-24.9-10.4-24.9-23.2V259.8c0-12.8 11.2-23.2 24.9-23.2h372.6v10.8H129.2c-7.8 0-14.2 5.6-14.2 12.5v504.5c0 6.9 6.4 12.5 14.2 12.5h372.6v10.6z"
+              fill="#333336"
+              data-sr-no-text="true"
+            ></path>
+            <path
+              d="M150.5 298.7h303V782h-303z"
+              fill="#dde1e4"
+              data-sr-no-text="true"
+            ></path>
+            <path
+              d="M458.8 787.5H145.1V293.4h313.8v494.1z m-303-10.8h292.3V304.1H155.8v472.6z"
+              fill="#333336"
+              data-sr-no-text="true"
+            ></path>
+            <path
+              d="M506.1 782.1h388.7c10.8 0 19.5-8 19.5-17.8V259.8c0-9.8-8.8-17.8-19.5-17.8H506.1v540.1z"
+              fill="#26c0ab"
+            ></path>
+            <path
+              d="M894.8 787.5H500.7v-551h394.1c13.7 0 24.9 10.4 24.9 23.2v504.5c0.1 12.8-11.1 23.3-24.9 23.3z m-383.3-10.8h383.3c7.8 0 14.2-5.6 14.2-12.5V259.8c0-6.9-6.4-12.5-14.2-12.5H511.5v529.4z"
+              fill="#333336"
+            ></path>
+            <path
+              d="M109.6 347.1h136.5c31.4 0 60.5 15.1 76.5 39.8l93.8 144.3c4.1 6.2 6.2 13.4 6.2 20.6v230.3H128.4c-10.4 0-18.8-7.7-18.8-17.2V347.1z"
+              fill="#6173ff"
+            ></path>
+            <path
+              d="M428.1 787.5H128.4c-13.3 0-24.2-10.1-24.2-22.5V341.7h141.9c33.1 0 64.1 16.2 81.1 42.2L421 528.2c4.6 7.1 7.1 15.3 7.1 23.6v235.7zM115 352.5V765c0 6.5 6 11.8 13.4 11.8h288.9v-225c0-6.2-1.8-12.3-5.3-17.7l-93.8-144.3c-15-23-42.6-37.3-72-37.3H115z"
+              fill="#333336"
+              data-sr-no-text="true"
+            ></path>
+            <path d="M109.6 606h313.1v10.8H109.6z" fill="#333336"></path>
+            <path
+              d="M368.3 736.9H266.4c-6.6 0-12-5.4-12-12v-52.1c0-6.6 5.4-12 12-12h101.9c6.6 0 12 5.4 12 12v52.1c0 6.6-5.4 12-12 12z"
+              fill="#dde1e4"
+            ></path>
+            <path
+              d="M368.5 742.3H266.1c-9.4 0-17.1-7.7-17.1-17.1v-52.6c0-9.4 7.7-17.1 17.1-17.1h102.4c9.4 0 17.1 7.7 17.1 17.1v52.6c0.1 9.4-7.6 17.1-17.1 17.1z m-102.4-76.1c-3.5 0-6.4 2.9-6.4 6.4v52.6c0 3.5 2.9 6.4 6.4 6.4h102.4c3.5 0 6.4-2.9 6.4-6.4v-52.6c0-3.5-2.9-6.4-6.4-6.4H266.1z"
+              fill="#333336"
+            ></path>
+            <path d="M560.7 316.4h310.7v403.5H560.7z" fill="#dde1e4"></path>
+            <path
+              d="M876.8 725.2H555.4V311h321.4v414.2z m-310.7-10.7H866V321.8H566.1v392.7z"
+              fill="#333336"
+            ></path>
+            <path
+              d="M792.4 353.1H645.5c-8.4 0-15.3-6.8-15.3-15.3v-37.9h177.4v37.9c0.1 8.5-6.8 15.3-15.2 15.3z"
+              fill="#D8A128"
+            ></path>
+            <path
+              d="M792.7 358.5H645.2c-11.2 0-20.3-9.1-20.3-20.3v-43.7H813v43.7c0 11.2-9.1 20.3-20.3 20.3z m-157.1-53.2v32.9c0 5.3 4.3 9.6 9.6 9.6h147.6c5.3 0 9.6-4.3 9.6-9.6v-32.9H635.6z"
+              fill="#333336"
+            ></path>
+            <path
+              d="M811.7 441H621.8c-3 0-5.4-2.4-5.4-5.4 0-3 2.4-5.4 5.4-5.4h189.8c3 0 5.4 2.4 5.4 5.4 0 3-2.4 5.4-5.3 5.4z"
+              fill="#333336"
+            ></path>
+            <path
+              d="M811.7 509.7H621.8c-3 0-5.4-2.4-5.4-5.4 0-3 2.4-5.4 5.4-5.4h189.8c3 0 5.4 2.4 5.4 5.4 0 3-2.4 5.4-5.3 5.4z"
+              fill="#333336"
+            ></path>
+            <path
+              d="M811.7 578.4H621.8c-3 0-5.4-2.4-5.4-5.4s2.4-5.4 5.4-5.4h189.8c3 0 5.4 2.4 5.4 5.4s-2.4 5.4-5.3 5.4z"
+              fill="#333336"
+            ></path>
+            <path
+              d="M811.7 647.1H621.8c-3 0-5.4-2.4-5.4-5.4s2.4-5.4 5.4-5.4h189.8c3 0 5.4 2.4 5.4 5.4s-2.4 5.4-5.3 5.4z"
+              fill="#333336"
+            ></path>
+          </g>
+        </svg>
+        <h3>A history of everything you copy</h3>
+        <p class="section-content mb-10">
+          Clipboard allows you to track and organise everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <div class="button-container">
+          <button
+            class="bg-lightBlue px-8 py-4 rounded-full duration-200 hover:opacity-90"
+          >
+            Download for IOS
+          </button>
+          <button
+            class="bg-strongCyan px-8 py-4 rounded-full duration-200 hover:opacity-90"
+          >
+            Download for Mac
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Snippets Section -->
+    <section id="snippets">
+      <div class="section-container my-20">
+        <h3>Keep track of your snippets</h3>
+        <p
+          class="max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-darkGrayishBlue"
+        >
+          Clipboard intantly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          IOS apps will help you organise everything you copy.
+        </p>
+      </div>
+    </section>
+    <!-- Features Section -->
+    <section id="features">
+      <div class="section-container my-20">
+        <div class="relative flex flex-col md:flex-row md:space-x-32">
+          <!-- Image -->
+          <div class="md:w-1/2">
+            <img
+              src="../images/image-computer.png"
+              alt=""
+              class="md:absolute top-0 right-[50%]"
+            />
+          </div>
+
+          <!-- Items Container -->
+          <div
+            class="flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16"
+          >
+            <!-- Item 1 -->
+            <div>
+              <h5>Quich Search</h5>
+              <p class="max-w-md text-grayishBlue">
+                Easily search your snippet content category, web application
+                content and more.
+              </p>
+            </div>
+            <!-- Item 2 -->
+            <div>
+              <h5>iCloud Sync</h5>
+              <p class="max-w-md text-grayishBlue">
+                Instantly saves and syncs snippets across all your devices.
+              </p>
+            </div>
+            <!-- Item 3 -->
+            <div>
+              <h5>Completely History</h5>
+              <p class="max-w-md text-grayishBlue">
+                Retrieve any snippets from the first moment you started using
+                the app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Access Anywhere Section -->
+    <section id="access">
+      <div class="section-container my-20">
+        <h3 class="capitalize">Access Clipboard Anywhere</h3>
+        <p class="section-contnet mb-24">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+          dignissimos sit! Vel dignissimos delectus, iste et excepturi expedita
+          corporis deserunt?
+        </p>
+        <img
+          src="../images/image-devices.png"
+          class="mx-auto md:w-[60%]"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- Supercharge Section -->
+    <section id="supercharge">
+      <div class="section-container my-20">
+        <h3 class="capitalize">Supercharge Your Workflow</h3>
+        <p class="section-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+          voluptates sequi non eos vel sunt quam impedit voluptatibus rem
+          cupiditate.
+        </p>
+        <!-- Items Container -->
+        <div
+          class="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-x-12 md:space-y-12"
+        >
+          <!-- Item 1 -->
+          <div class="flex flex-col items-center space-y-5">
+            <svg
+              width="44"
+              height="40"
+              class="my-6"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g fill="hsl(210, 10%, 33%)" fill-rule="nonzero">
+                <path
+                  d="M11.07 0C8.353 0 6.14 2.192 6.14 4.876l-.179 25.278 2.69.02.179-25.289c0-1.21 1.005-2.196 2.24-2.196h27.027V0H11.071z"
+                />
+                <path
+                  d="M38.097 0a5.115 5.115 0 00-5.11 5.11v28.37c0 2.052-1.668 3.72-3.72 3.72a3.725 3.725 0 01-3.72-3.72V30.21c0-.743-.601-1.345-1.344-1.345H1.345C.602 28.864 0 29.466 0 30.21v3.272a6.417 6.417 0 006.41 6.409V37.2a3.724 3.724 0 01-3.72-3.72v-1.927h20.168v1.928a6.417 6.417 0 006.41 6.409 6.417 6.417 0 006.409-6.41V12.46h6.185c.743 0 1.345-.602 1.345-1.345V5.11A5.115 5.115 0 0038.097 0zm2.42 9.77h-4.84V5.11a2.423 2.423 0 012.42-2.42 2.423 2.423 0 012.42 2.42v4.66z"
+                />
+                <path
+                  d="M6.14 37.201h22.813v2.689H6.14zM19.99 7.485h-6.947a1.345 1.345 0 100 2.69h6.947a1.345 1.345 0 100-2.69zM28.057 12.863H13.043a1.345 1.345 0 100 2.69h15.014a1.345 1.345 0 100-2.69zM28.057 18.242H13.043a1.345 1.345 0 100 2.69h15.014a1.344 1.344 0 100-2.69zM28.057 23.62H13.043a1.345 1.345 0 100 2.69h15.014a1.345 1.345 0 100-2.69z"
+                />
+              </g>
+            </svg>
+            <h5>Create Blacklists</h5>
+            <p class="max-w-md text-grayishBlue">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur asperiores explicabo deleniti ea illum earum!
+            </p>
+          </div>
+          <!-- Item 2 -->
+          <div class="flex flex-col items-center space-y-5">
+            <svg
+              width="36"
+              height="32"
+              class="mb-6"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.872 14.736a235.39 235.39 0 012.192 5.744c.746 2.027 1.536 4.24 2.368 6.64h-5.344a44.4 44.4 0 00-.784-2.368c-.288-.81-.57-1.632-.848-2.432h-8.64c-.278.8-.56 1.621-.848 2.432a44.4 44.4 0 00-.784 2.368H0a371.54 371.54 0 012.368-6.644 233.104 233.104 0 012.192-5.748 206.71 206.71 0 012.112-5.112c.693-1.61 1.413-3.136 2.16-4.736H13.6c.725 1.6 1.44 3.125 2.144 4.736.704 1.61 1.413 3.328 2.128 5.12zM7.968 18.32h6.303c-.34-.96-.671-1.878-.991-2.752a94.407 94.407 0 00-.912-2.4c-.288-.725-.539-1.365-.752-1.92-.214-.555-.384-.992-.512-1.313-.107.32-.267.758-.48 1.313a1241.872 1241.872 0 00-1.648 4.32c-.331.874-.667 1.792-1.008 2.752zM35.04 3.2h-3.2v25.6h3.2V32h-9.6v-3.2h3.2V3.2h-3.2V0h9.6v3.2z"
+                fill="hsl(210, 10%, 33%)"
+                fill-rule="nonzero"
+              />
+            </svg>
+            <h5>Plain Text Snippets</h5>
+            <p class="max-w-md text-grayishBlue">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur asperiores explicabo deleniti ea illum earum!
+            </p>
+          </div>
+          <!-- Item 3 -->
+          <div class="flex flex-col items-center space-y-5">
+            <svg
+              width="50"
+              height="32"
+              class="my-6"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M49.059 14.072c-2.585-4.227-6.06-7.623-10.424-10.188C34.27 1.318 29.66.035 24.806.035c-4.854 0-9.464 1.283-13.829 3.849C6.612 6.449 3.137 9.845.554 14.072c-.37.646-.554 1.283-.554 1.91 0 .628.185 1.265.554 1.91 2.583 4.227 6.058 7.624 10.423 10.189 4.365 2.565 8.975 3.847 13.83 3.847 4.853 0 9.463-1.277 13.828-3.833 4.365-2.557 7.84-5.957 10.424-10.202.369-.646.553-1.283.553-1.91 0-.628-.184-1.265-.553-1.911zM18.867 6.5c1.652-1.652 3.631-2.478 5.939-2.478.369 0 .683.13.941.388.258.258.388.572.388.941 0 .37-.13.683-.387.941a1.28 1.28 0 01-.942.388c-1.587 0-2.944.563-4.07 1.689-1.126 1.126-1.688 2.482-1.688 4.07 0 .369-.13.683-.388.941a1.28 1.28 0 01-.941.388c-.37 0-.683-.13-.942-.388a1.282 1.282 0 01-.388-.942c0-2.306.827-4.286 2.478-5.938zm17.969 18.522c-3.701 2.242-7.71 3.364-12.03 3.364-4.319 0-8.329-1.121-12.03-3.364-3.7-2.243-6.777-5.256-9.232-9.04 2.805-4.356 6.321-7.614 10.548-9.773a12.099 12.099 0 00-1.689 6.23c0 3.414 1.214 6.334 3.64 8.762 2.428 2.427 5.349 3.64 8.763 3.64 3.415 0 6.335-1.213 8.762-3.64 2.428-2.427 3.641-5.348 3.641-8.763 0-2.233-.563-4.31-1.689-6.229 4.227 2.16 7.743 5.418 10.548 9.773-2.454 3.784-5.532 6.797-9.232 9.04z"
+                fill="hsl(210, 10%, 33%)"
+                fill-rule="nonzero"
+              />
+            </svg>
+            <h5>Sneak Preview</h5>
+            <p class="max-w-md text-grayishBlue">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur asperiores explicabo deleniti ea illum earum!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Refrences Section -->
+    <section id="refrences">
+      <div
+        class="flex flex-col items-center justify-between max-w-6xl px-10 mx-auto space-y-16 my-44 md:flex-row md:space-y-0"
+      >
+        <img class="brightness-50" src="../images/logo-google.png" alt="" />
+        <img class="brightness-50" src="../images/logo-ibm.png" alt="" />
+        <img class="brightness-50" src="../images/logo-microsoft.png" alt="" />
+        <img class="brightness-50" src="../images/logo-hp.png" alt="" />
+        <img
+          class="brightness-50"
+          src="../images/logo-vector-graphics.png"
+          alt=""
+        />
+      </div>
+      <!-- Button CTA Section -->
+      <div class="section-container my-20">
+        <h3>Clipboard for iOS and MacOS</h3>
+        <p class="section-content mb-10">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus
+          laboriosam, id ratione sint magni velit iure pariatur quod? Aut omnis
+          eligendi deserunt vitae mollitia excepturi cum praesentium? Tempore,
+          vel ipsa.
+        </p>
+        <!-- Button Container -->
+        <div class="button-container">
+          <button
+            class="bg-lightBlue px-8 py-4 rounded-full duration-200 hover:opacity-90"
+          >
+            Download for IOS
+          </button>
+          <button
+            class="bg-strongCyan px-8 py-4 rounded-full duration-200 hover:opacity-90"
+          >
+            Download for Mac
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="bg-bgBlues opacity-90 text-white py-16 mt-32 md:mt-48 relative"
+    >
+      <!-- SVG Wave -->
+      <div class="absolute inset-x-0 -top-14 md:-top-24 lg:-top-[8rem] -z-10">
+        <svg
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          id="wave"
+          style="transform: rotate(0deg); transition: 0.3s"
+          viewBox="0 0 1440 500"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(96.9, 115.345, 255, 1)" offset="0%" />
+              <stop stop-color="rgba(96.9, 115.345, 255, 1)" offset="100%" />
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,95L40,85.5C80,76,160,57,240,69.7C320,82,400,127,480,129.8C560,133,640,95,720,66.5C800,38,880,19,960,28.5C1040,38,1120,76,1200,79.2C1280,82,1360,51,1440,38C1520,25,1600,32,1680,34.8C1760,38,1840,38,1920,38C2000,38,2080,38,2160,47.5C2240,57,2320,76,2400,82.3C2480,89,2560,82,2640,72.8C2720,63,2800,51,2880,60.2C2960,70,3040,101,3120,120.3C3200,139,3280,146,3360,145.7C3440,146,3520,139,3600,139.3C3680,139,3760,146,3840,139.3C3920,133,4000,114,4080,107.7C4160,101,4240,108,4320,98.2C4400,89,4480,63,4560,47.5C4640,32,4720,25,4800,28.5C4880,32,4960,44,5040,44.3C5120,44,5200,32,5280,28.5C5360,25,5440,32,5520,44.3C5600,57,5680,76,5720,85.5L5760,95L5760,190L5720,190C5680,190,5600,190,5520,190C5440,190,5360,190,5280,190C5200,190,5120,190,5040,190C4960,190,4880,190,4800,190C4720,190,4640,190,4560,190C4480,190,4400,190,4320,190C4240,190,4160,190,4080,190C4000,190,3920,190,3840,190C3760,190,3680,190,3600,190C3520,190,3440,190,3360,190C3280,190,3200,190,3120,190C3040,190,2960,190,2880,190C2800,190,2720,190,2640,190C2560,190,2480,190,2400,190C2320,190,2240,190,2160,190C2080,190,2000,190,1920,190C1840,190,1760,190,1680,190C1600,190,1520,190,1440,190C1360,190,1280,190,1200,190C1120,190,1040,190,960,190C880,190,800,190,720,190C640,190,560,190,480,190C400,190,320,190,240,190C160,190,80,190,40,190L0,190Z"
+          />
+        </svg>
+      </div>
+      <div class="section-container z-10">
+        <div class="flex flex-col items-center justify-between md:flex-row">
+          <svg
+            class="icon mx-auto my-4 w-32 h-32"
+            viewBox="0 0 1024 1024"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+            data-sr-no-text="true"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M506.9 782.1H129.2c-10.8 0-19.5-8-19.5-17.8V259.8c0-9.8 8.8-17.8 19.5-17.8h378.4l-0.7 540.1z"
+                fill="#26c0ab"
+                data-sr-no-text="true"
+              ></path>
+              <path
+                d="M501.8 787.5H129.2c-13.7 0-24.9-10.4-24.9-23.2V259.8c0-12.8 11.2-23.2 24.9-23.2h372.6v10.8H129.2c-7.8 0-14.2 5.6-14.2 12.5v504.5c0 6.9 6.4 12.5 14.2 12.5h372.6v10.6z"
+                fill="#333336"
+                data-sr-no-text="true"
+              ></path>
+              <path
+                d="M150.5 298.7h303V782h-303z"
+                fill="#dde1e4"
+                data-sr-no-text="true"
+              ></path>
+              <path
+                d="M458.8 787.5H145.1V293.4h313.8v494.1z m-303-10.8h292.3V304.1H155.8v472.6z"
+                fill="#333336"
+                data-sr-no-text="true"
+              ></path>
+              <path
+                d="M506.1 782.1h388.7c10.8 0 19.5-8 19.5-17.8V259.8c0-9.8-8.8-17.8-19.5-17.8H506.1v540.1z"
+                fill="#26c0ab"
+              ></path>
+              <path
+                d="M894.8 787.5H500.7v-551h394.1c13.7 0 24.9 10.4 24.9 23.2v504.5c0.1 12.8-11.1 23.3-24.9 23.3z m-383.3-10.8h383.3c7.8 0 14.2-5.6 14.2-12.5V259.8c0-6.9-6.4-12.5-14.2-12.5H511.5v529.4z"
+                fill="#333336"
+              ></path>
+              <path
+                d="M109.6 347.1h136.5c31.4 0 60.5 15.1 76.5 39.8l93.8 144.3c4.1 6.2 6.2 13.4 6.2 20.6v230.3H128.4c-10.4 0-18.8-7.7-18.8-17.2V347.1z"
+                fill="#6173ff"
+              ></path>
+              <path
+                d="M428.1 787.5H128.4c-13.3 0-24.2-10.1-24.2-22.5V341.7h141.9c33.1 0 64.1 16.2 81.1 42.2L421 528.2c4.6 7.1 7.1 15.3 7.1 23.6v235.7zM115 352.5V765c0 6.5 6 11.8 13.4 11.8h288.9v-225c0-6.2-1.8-12.3-5.3-17.7l-93.8-144.3c-15-23-42.6-37.3-72-37.3H115z"
+                fill="#333336"
+                data-sr-no-text="true"
+              ></path>
+              <path d="M109.6 606h313.1v10.8H109.6z" fill="#333336"></path>
+              <path
+                d="M368.3 736.9H266.4c-6.6 0-12-5.4-12-12v-52.1c0-6.6 5.4-12 12-12h101.9c6.6 0 12 5.4 12 12v52.1c0 6.6-5.4 12-12 12z"
+                fill="#dde1e4"
+              ></path>
+              <path
+                d="M368.5 742.3H266.1c-9.4 0-17.1-7.7-17.1-17.1v-52.6c0-9.4 7.7-17.1 17.1-17.1h102.4c9.4 0 17.1 7.7 17.1 17.1v52.6c0.1 9.4-7.6 17.1-17.1 17.1z m-102.4-76.1c-3.5 0-6.4 2.9-6.4 6.4v52.6c0 3.5 2.9 6.4 6.4 6.4h102.4c3.5 0 6.4-2.9 6.4-6.4v-52.6c0-3.5-2.9-6.4-6.4-6.4H266.1z"
+                fill="#333336"
+              ></path>
+              <path d="M560.7 316.4h310.7v403.5H560.7z" fill="#dde1e4"></path>
+              <path
+                d="M876.8 725.2H555.4V311h321.4v414.2z m-310.7-10.7H866V321.8H566.1v392.7z"
+                fill="#333336"
+              ></path>
+              <path
+                d="M792.4 353.1H645.5c-8.4 0-15.3-6.8-15.3-15.3v-37.9h177.4v37.9c0.1 8.5-6.8 15.3-15.2 15.3z"
+                fill="#D8A128"
+              ></path>
+              <path
+                d="M792.7 358.5H645.2c-11.2 0-20.3-9.1-20.3-20.3v-43.7H813v43.7c0 11.2-9.1 20.3-20.3 20.3z m-157.1-53.2v32.9c0 5.3 4.3 9.6 9.6 9.6h147.6c5.3 0 9.6-4.3 9.6-9.6v-32.9H635.6z"
+                fill="#333336"
+              ></path>
+              <path
+                d="M811.7 441H621.8c-3 0-5.4-2.4-5.4-5.4 0-3 2.4-5.4 5.4-5.4h189.8c3 0 5.4 2.4 5.4 5.4 0 3-2.4 5.4-5.3 5.4z"
+                fill="#333336"
+              ></path>
+              <path
+                d="M811.7 509.7H621.8c-3 0-5.4-2.4-5.4-5.4 0-3 2.4-5.4 5.4-5.4h189.8c3 0 5.4 2.4 5.4 5.4 0 3-2.4 5.4-5.3 5.4z"
+                fill="#333336"
+              ></path>
+              <path
+                d="M811.7 578.4H621.8c-3 0-5.4-2.4-5.4-5.4s2.4-5.4 5.4-5.4h189.8c3 0 5.4 2.4 5.4 5.4s-2.4 5.4-5.3 5.4z"
+                fill="#333336"
+              ></path>
+              <path
+                d="M811.7 647.1H621.8c-3 0-5.4-2.4-5.4-5.4s2.4-5.4 5.4-5.4h189.8c3 0 5.4 2.4 5.4 5.4s-2.4 5.4-5.3 5.4z"
+                fill="#333336"
+              ></path>
+            </g>
+          </svg>
+          <!-- Container for Menus & Social -->
+          <div
+            class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 mb:space-y-0"
+          >
+            <!-- Menus -->
+            <div
+              class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0"
+            >
+              <!-- Menu 1 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <h5 class="font-bold text-white">About</h5>
+                <a href="#" class="hover:text-strongCyan">What we do</a>
+                <a href="#" class="hover:text-strongCyan">Careers</a>
+                <a href="#" class="hover:text-strongCyan">Press</a>
+                <a href="#" class="hover:text-strongCyan">Blog</a>
+              </div>
+              <!-- Menu 2 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <h5 class="font-bold text-white">Privacy</h5>
+                <a href="#" class="hover:text-strongCyan">Policy</a>
+                <a href="#" class="hover:text-strongCyan">Kit</a>
+                <a href="#" class="hover:text-strongCyan">Press</a>
+                <a href="#" class="hover:text-strongCyan">Blog</a>
+              </div>
+              <!-- Menu 3 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <h5 class="font-bold text-white">Services</h5>
+                <a href="#" class="hover:text-strongCyan">What we do</a>
+                <a href="#" class="hover:text-strongCyan">Careers</a>
+                <a href="#" class="hover:text-strongCyan">Press</a>
+                <a href="#" class="hover:text-strongCyan">Blog</a>
+              </div>
+            </div>
+            <!-- Social -->
+            <div class="flex justify-between w-32 py-1">
+              <a class="ficon" href="#"
+                ><img src="../images/icon-facebook.svg" alt=""
+              /></a>
+              <a class="ficon" href="#"
+                ><img src="../images/icon-twitter.svg" alt=""
+              /></a>
+              <a class="ficon" href="#"
+                ><img src="../images/icon-instagram.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

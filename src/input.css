@@ -1,0 +1,73 @@
+/* import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .brightness-50 {
+    filter: brightness(0.5);
+  }
+  .brightness-75 {
+    filter: brightness(0.75);
+  }
+  .brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+@layer base {
+  h3 {
+    @apply mb-6 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+  }
+  h5 {
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue md:text-3xl;
+  }
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center px-10;
+}
+.section-content {
+  @apply max-w-3xl mx-auto  text-xl leading-9 text-center text-grayishBlue;
+}
+.button-container {
+  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-x-6 md:space-y-0;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100vh; /* Ensure body covers the entire viewport height */
+}
+
+body::before {
+  content: '';
+  position: fixed; /* Change to fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ensure pseudo-element covers the entire viewport height */
+  background: linear-gradient(
+      rgba(150, 170, 255, 0.1),
+      rgba(150, 170, 255, 0.1)
+    ),
+    url('../images/background-pencil.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  filter: blur(1px);
+  z-index: -1;
+}
+.ficon {
+  /* make color white by using filter  */
+
+  filter: invert(1) brightness(2) contrast(100);
+}
+.ficon:hover {
+  /* change color when hover over svg to cyan strong by using filter*/
+  filter: invert(1) sepia(1) saturate(9) hue-rotate(175deg);
+}
